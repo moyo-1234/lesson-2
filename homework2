@@ -1,0 +1,20 @@
+#HINTS :
+#create a dictionary
+#user inputs
+#change the values in the dictionary
+
+fruits_color = {
+    "apple" : "red",
+    "banana" : "yellow",
+    "cherry" : "red"
+}
+
+fruit = input("which fruit do you want to add in the dictionary ?")
+color = input("what is the color of the fruit that you have entered")
+fruits_color[fruit] = color
+
+print(fruits_color)
+
+fruits_color["melon"] =  "yellow"
+
+print(fruits_color)
